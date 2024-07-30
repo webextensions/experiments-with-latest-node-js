@@ -1,0 +1,13 @@
+{
+    "name": "experiments-with-latest-node-js",
+    "version": "0.0.1",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Warning: No tests specified\"",
+        "start": "NODE_NO_WARNINGS=1 node --experimental-strip-types index.ts"
+    },
+    "author": "webextensions.org",
+    "license": "MIT",
+    "description": "Experiments with latest version of Node.js"
+}
