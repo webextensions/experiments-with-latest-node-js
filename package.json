@@ -4,6 +4,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
+        "nvm-ls-remote": ". ~/.nvm/nvm.sh ; NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/nightly nvm ls-remote",
+        "nvm-install": "  . ~/.nvm/nvm.sh ; NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/nightly nvm install",
         "test": "echo \"Warning: No tests specified\"",
         "start": "NODE_NO_WARNINGS=1 node --experimental-strip-types index.ts"
     },

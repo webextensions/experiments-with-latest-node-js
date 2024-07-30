@@ -3,8 +3,7 @@ Experiments with latest version of Node.js.
 
 # Install Node.js nightly
 
-Ref:
-* https://github.com/nvm-sh/nvm/issues/1053#issuecomment-281178829
+Ref: https://github.com/nvm-sh/nvm/issues/1053#issuecomment-281178829
 
 ```sh
 $ NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/nightly nvm ls-remote
